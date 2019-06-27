@@ -5,4 +5,9 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent {}
+export class AppComponent {
+  color = 'primary';
+  mode = 'determinate';
+  value = 50;
+  bufferValue = 75;
+}
