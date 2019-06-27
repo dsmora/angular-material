@@ -29,6 +29,6 @@ import { CardComponent } from './card/card.component';
     MatCardModule
   ],
   providers: [],
-  bootstrap: [AppComponent, CardComponent]
+  bootstrap: [AppComponent]
 })
 export class AppModule { }
